@@ -87,7 +87,7 @@
 #endif
 
 
-#include <glad.h>          // Needs to be initialized with gladLoadGL() in user's code.
+#include <glad/glad.h>          // Needs to be initialized with gladLoadGL() in user's code.
 
 
 // Desktop GL 3.2+ has glDrawElementsBaseVertex() which GL ES and WebGL don't have.
